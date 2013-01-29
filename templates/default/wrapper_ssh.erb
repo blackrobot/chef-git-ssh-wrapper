@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Deploy SSH Wrapper
+
+/usr/bin/env ssh -o "StrictHostKeyChecking=no" -i "<%= @rsa_key %>" "$@"
